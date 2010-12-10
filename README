@@ -1,0 +1,11 @@
+First, download Eloquera and add a reference to it. 
+Then edit the C:\Program Files\Eloquera\Eloquera Server 3.0\Eloquera.config file so that the Eloquera files are in c:\temp\db by adding DatabasePath=”c:\temp\db”:
+
+<Server ServerPort="43962"
+          DatabasePath="c:\temp\db"
+          Trace="true"
+          InMemoryAllowed="true"
+          Secure="true"
+          AllowUsers=""
+          AllowGroups="Everyone" />
+<SmartRuntime Smart="true" />
